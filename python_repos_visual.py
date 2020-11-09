@@ -47,6 +47,9 @@ my_layout = {
         'titlefont': {'size': 24},
         'tickfont': {'size': 14},
     },
+    'hoverlabel': {
+        'bgcolor': 'rgb(224, 224, 224)',
+    },
 }
 
 fig = {'data': data, 'layout': my_layout}
